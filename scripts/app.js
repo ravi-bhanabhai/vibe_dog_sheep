@@ -3,7 +3,7 @@ const ctx = canvas.getContext('2d');
 document.body.appendChild(canvas);
 
 let dog = { x: 0, y: 0, size: 20 };
-let sheep = { x: Math.random() * canvas.width, y: Math.random() * canvas.height, size: 30, speed: 3 };
+let sheep = { x: Math.random() * canvas.width, y: Math.random() * canvas.height, size: 30, speed: 10 };
 let gameActive = true;
 let gameStartTime = Date.now();
 let elapsedTime = 0;
